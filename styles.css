@@ -716,4 +716,24 @@ html {
     .close-btn {
         display: none;
     }
+}
+
+.portfolio-video {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
+}
+
+.portfolio-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 모바일 화면 */
+@media (max-width: 768px) {
+    .portfolio-video {
+        margin: 0 auto 2rem;
+    }
 } 
