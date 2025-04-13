@@ -68,7 +68,7 @@ body {
 }
 
 .nav-menu a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1.1rem;
     transition: color 0.3s ease;
@@ -367,6 +367,7 @@ body {
     }
 
     .nav-menu a {
+        color: var(--secondary-color);
         font-size: 1.1rem;
     }
 
@@ -708,4 +709,11 @@ html {
 
 .menu-overlay.active {
     display: block;
+}
+
+/* 데스크톱에서 모바일 닫기 버튼 숨기기 */
+@media (min-width: 769px) {
+    .close-btn {
+        display: none;
+    }
 } 
